@@ -13,7 +13,7 @@ export default [
 },
 {
 	id: 2,
-	description: "Make student jealous",
+	description: "Make everyone proud",
 	due_date: "01.03.2020",
 	done: false
 }

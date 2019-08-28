@@ -68,8 +68,6 @@ class App extends React.Component{
     };
 
     return (
-
-
       <div className="App">
 
       { this.state.welcomeFlag == true ? 
@@ -94,12 +92,7 @@ class App extends React.Component{
       : ""
     }
 
-
-
-
-
-      { this.state.flag == true ? 
-         
+      { this.state.flag == true ?          
             <div class="alert alert-dismissible alert-danger">
              <button onClick={this.unflag} type="button" class="close" data-dismiss="alert">&times;</button>
              <strong>Oh snap!</strong> Fill everything in and try submitting again.
@@ -109,7 +102,7 @@ class App extends React.Component{
     
         <header className="App-header">
           <h1 style={h1Style}> TO DO</h1>
-          <br/>
+          
           <ItemForm add={this.add}/>
           <br/>
           <RenderList list={this.state.list} do_undo = {this.do_undo}/>

@@ -7,8 +7,8 @@ export default class ItemForm extends React.Component{
 			<div>
 			<h2>Make New Task</h2>
 				<form onSubmit = {(e) => this.props.add(e)}>
-					<input type = "text" placeholder = "Description"  />
-					<input type = "text" placeholder = "MM.DD.YYYY"  />
+					<input className ="form-control" type = "text" placeholder = "Description"  />
+					<input className ="form-control" type = "text" placeholder = "MM.DD.YYYY"  />
 
 					<input className="btn btn-success" type="submit" value = "Add to the list"  />
 
